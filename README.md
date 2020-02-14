@@ -27,6 +27,13 @@ _As a patron, I want to have kegs prices to be color-coded for easy readability 
 
 _As a patron, I want to use the alcohol content property to display stronger beers differently than weaker beers._
 
+
+## Wireframe Design
+
+![](src/assets/images/Home-Customer.jpg)
+
+![](src/assets/images/Employee-Admin.jpg)
+
 ## Known Bugs
 
 _None at this time._
