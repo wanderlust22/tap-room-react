@@ -34,6 +34,10 @@ _As a patron, I want to use the alcohol content property to display stronger bee
 
 ![](src/assets/images/Employee-Admin.jpg)
 
+## Component Structure
+
+![](src/assets/images/Component-Structure.jpg)
+
 ## Known Bugs
 
 _None at this time._
