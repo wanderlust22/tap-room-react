@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import Splash from './components/Splash';
 import Customers from './components/Customers';
 import Employees from './components/Employees';
@@ -18,6 +19,7 @@ function App() {
           <Route path='/employees' component={Employees} />
         </div>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
