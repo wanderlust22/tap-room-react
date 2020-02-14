@@ -1,14 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# _Tap Room_
 
-# _{Application Name}_
+#### _React app that keeps track of a bar's keg log, 2.14.2020_
 
-#### _{Brief description of application}, {Date of current version}_
-
-#### By _**{List of contributors}**_
+#### By _**Will Quanstrom**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Tap Room is a react web app that allows a brewery owner to easily keep track of their kegs in stock and renders the information on beer's availablity on the web for customers to access._
 
 ## Setup/Installation Requirements
 
@@ -18,22 +16,37 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _easy-to-understand_
 * _format_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+## User Stories
+_As a patron, I want to see a list/menu of all available kegs. For each keg, I need to see its name, brand, price and alcoholContent, and whether it's available to by in a growler or in bottles._
+
+_As an employee, I want to fill out a form when I tap a new keg to add it to the list._
+
+_As an employee, I want the option to edit a keg's properties after entering them just in case I make a mistake._
+
+_As a patron, I want to have kegs prices to be color-coded for easy readability based on their price._
+
+_As a patron, I want to use the alcohol content property to display stronger beers differently than weaker beers._
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_None at this time._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_wquanstr215@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)._
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*Released under MIT license*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Copyright (c) 2020 **_Will Quanstrom_**
