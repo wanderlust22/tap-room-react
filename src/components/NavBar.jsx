@@ -14,9 +14,11 @@ function NavBar(){
     <div>
       <nav style={barStyling}>
           <BrowserRouter>
-            <Link to="/customers">Beer List</Link> 
-            <Link to="/">Home</Link>
-            <Link to="/employees">Employees</Link>
+            <div>
+                <Link to="/customers">Beer List</Link> 
+                <Link to="/">Home</Link>
+                <Link to="/employees">Employees</Link>
+            </div>
           </BrowserRouter>
       </nav>
     </div>
