@@ -15,17 +15,15 @@ function NavBar(){
     }
    
   return (
-    <div>
       <nav style={barStyling}>
           <BrowserRouter>
-            <div style={linkStyling}>
+            <div>
                 <Link to="/customers" style={linkStyling}>Beer List</Link> 
                 <Link to="/" style={linkStyling}>Home</Link>
                 <Link to="/employees" style={linkStyling}>Employees</Link>
             </div>
           </BrowserRouter>
       </nav>
-    </div>
   );
 }
 

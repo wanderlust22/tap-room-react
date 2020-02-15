@@ -1,18 +1,20 @@
 import React from 'react';
 import Home from './Home';
-
-const background = '../assets/images/Background.jpg';
+import background from '../assets/images/Background.jpg';
 
 function Splash(){
-    const splashStyling = {
-        backgroundImage: `url( ${background} )`,
-        marginTop: '10px',
-        height: '500px',
-        border: '5px solid black',
-        position: 'relative'
-    }
+
     return(
-        <div style={splashStyling}>
+        <div className='background'>
+            <style jsx>{`
+                .background {
+                    background: url(${background}) no-repeat center center fixed;
+                    background-size: cover;
+                    height: 500px;
+                    marginTop: 10px;
+                    height: 500px;
+                }
+            `}</style>
             <Home />
         </div>
     );

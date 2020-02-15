@@ -1,20 +1,20 @@
 import React from 'react';
+import icon from '../assets/images/reactIcon.jpeg';
 
 function Footer(){
 
     const footerStyling = {
-            position: 'absolute',
             right: '0',
             bottom: '0',
             left: '0',
-            padding: '.6rem',
+            padding: '5px',
             backgroundColor: '#efefef',
             textAlign: 'right'
     }
     return(
         <footer style={footerStyling}>
             <p><em> powered by </em>
-            <img src="./assets/images/reactIcon.png" alt="react"/>
+            <img src={icon} alt="react"/>
             <em> and Will Quanstrom</em></p>
         </footer>
     );
