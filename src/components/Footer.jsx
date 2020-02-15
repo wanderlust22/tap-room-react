@@ -14,7 +14,7 @@ function Footer(){
     return(
         <footer style={footerStyling}>
             <p><em> powered by </em>
-            <img src="./assets/images/reactIcon.png" alt=""/>
+            <img src="./assets/images/reactIcon.png" alt="react"/>
             <em> and Will Quanstrom</em></p>
         </footer>
     );

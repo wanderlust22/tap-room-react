@@ -5,19 +5,23 @@ function NavBar(){
     const barStyling = {
         backgroundColor: 'blue',
         textAlign: 'center',
-        padding: '5px',
-        color: 'white',
-        textDecoration: 'none'
+        padding: '5px'
+    }
+
+    const linkStyling = {
+      color: 'white',
+        textDecoration: 'none',
+        padding: '15px'
     }
    
   return (
     <div>
       <nav style={barStyling}>
           <BrowserRouter>
-            <div>
-                <Link to="/customers">Beer List</Link> 
-                <Link to="/">Home</Link>
-                <Link to="/employees">Employees</Link>
+            <div style={linkStyling}>
+                <Link to="/customers" style={linkStyling}>Beer List</Link> 
+                <Link to="/" style={linkStyling}>Home</Link>
+                <Link to="/employees" style={linkStyling}>Employees</Link>
             </div>
           </BrowserRouter>
       </nav>
