@@ -50,7 +50,7 @@ class Employees extends React.Component{
 
         let displayMe;
         if(this.state.whatToShow === true){
-            displayMe = <BeerList beerList={this.beerList} />;
+            displayMe = <BeerList beerList={this.props.beerList} />;
         } else if(this.state.whatToShow === false){
             displayMe = <AddBeerForm onAddingBeersToMaster={this.props.onAddingBeersToMaster}/>;
         }
