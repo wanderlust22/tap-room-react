@@ -16,13 +16,9 @@ function NavBar(){
    
   return (
       <nav style={barStyling}>
-          <BrowserRouter>
-            <div>
                 <Link to="/customers" style={linkStyling}>Beer List</Link> 
                 <Link to="/" style={linkStyling}>Home</Link>
                 <Link to="/employees" style={linkStyling}>Employees</Link>
-            </div>
-          </BrowserRouter>
       </nav>
   );
 }
