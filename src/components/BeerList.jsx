@@ -1,9 +1,13 @@
 import React from 'react';
 
-function BeerList(){
+const BeerList = (props) => {
     return(
         <div>
-            <h1>ima beerlist</h1>
+            <hr/>
+            {props.beerList.map((x) => {return <Beer title={x.title} 
+            style={x.style} 
+            abv={x.abv} />; }) }
+            <hr/>
         </div>
     );
 }
