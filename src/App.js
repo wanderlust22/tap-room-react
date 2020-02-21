@@ -3,7 +3,7 @@ import Header from './components/Header';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Splash from './components/Splash';
-import Customers from './components/Customers';
+import BeerList from './components/BeerList';
 import Employees from './components/Employees';
 import { Route, HashRouter } from 'react-router-dom';
 
@@ -30,7 +30,7 @@ class App extends React.Component {
           <NavBar />
             <div>
               <Route exact path='/' component={Splash} />
-              <Route path='/customers' component={Customers} />
+              <Route path='/customers' render={() => <BeerList beerList={this.state.masterBeerList}/>} />
               <Route path='/employees' render={() => <Employees onAddingBeersToMaster={this.handleAddingBeersToMaster}
               beerList={this.state.masterBeerList}/> } />
             </div>
