@@ -5,7 +5,8 @@ import Footer from './components/Footer';
 import Splash from './components/Splash';
 import BeerList from './components/BeerList';
 import Employees from './components/Employees';
-import { Route, HashRouter } from 'react-router-dom';
+import Error404 from './components/Error404';
+import { Route, HashRouter, Switch } from 'react-router-dom';
 
 class App extends React.Component {
   constructor(props){
@@ -28,12 +29,13 @@ class App extends React.Component {
         <div>
           <Header />
           <NavBar />
-            <div>
+            <Switch>
               <Route exact path='/' component={Splash} />
               <Route path='/customers' render={() => <BeerList beerList={this.state.masterBeerList}/>} />
               <Route path='/employees' render={() => <Employees onAddingBeersToMaster={this.handleAddingBeersToMaster}
               beerList={this.state.masterBeerList}/> } />
-            </div>
+              <Route component={Error404} />
+            </Switch>
           <Footer />
         </div>
       </HashRouter>
