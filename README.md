@@ -10,11 +10,10 @@ _Tap Room is a react web app that allows a brewery owner to easily keep track of
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone github repository https://github.com/wanderlust22/tap-room-react_
+* _Navigate to root of directory and run "npm install" in CLI_
+* _Start local host by running "npm start" in CLI (project should open up in browser automatically)_
+* _Navigate through the EMPLOYEE path to add beers to beer list._
 
 ## User Stories
 _As a patron, I want to see a list/menu of all available kegs. For each keg, I need to see its name, brand, price and alcoholContent, and whether it's available to by in a growler or in bottles._
